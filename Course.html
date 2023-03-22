@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/acc408678e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-xmark" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>    
+       
+    <!---------------- Course content------------------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero numquam optio, esse recusandae.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos aut sed eius odio dolore error nulla voluptatem expedita laudantium nobis. Assumenda voluptas tenetur ipsa consequuntur dolore aliquid adipisci! Placeat, magni!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos aut sed eius odio dolore error nulla voluptatem expedita laudantium nobis. Assumenda voluptas tenetur ipsa consequuntur dolore aliquid adipisci! Placeat, magni!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos aut sed eius odio dolore error nulla voluptatem expedita laudantium nobis. Assumenda voluptas tenetur ipsa consequuntur dolore aliquid adipisci! Placeat, magni!</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------------- facilities ------------------>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi officiis vitae inventore.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest playground</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias commodi  tenetur. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty And Healthy Food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias commodi natus, accusamus. </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!----------- footer ----------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem temporibus repellendus minima cupiditate exercitationem,<br> neque tempora at atque laboriosam, laborum quaerat architecto ad. Deserunt recusandae modi voluptates</p>
+        <div class="icons">
+            <a href="https://facebook.com/faique.faiz.3"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/narendramodi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com/mdfaique?igshid=YmMyMTA2M2Y"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/md-faique-79b91826a"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart" id="heart"></i> By Mohd Faique</p>
+    </section>
+
+
+    <!------------------------------------------------- js for toggle menu -------------------------------------------->
+    <script>
+       var navlinks=document.getElementById("navlinks");
+       function showmenu()
+       {
+        navlinks.style.right="0";
+       }
+       function hidemenu()
+       {
+        navlinks.style.right="-200px";
+       }
+    </script>
+</body>
+</html>
